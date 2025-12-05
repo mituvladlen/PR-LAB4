@@ -126,7 +126,7 @@ I have created an integration test script *integration_test.py* that performs a 
 
 We can run the tests using the following command:
 ```
-python3 integration_test.py
+python integration_test.py
 ```
 Here is the output of the tests and we can see that all tests have passed successfully:
 
@@ -140,7 +140,7 @@ I have created a performance analysis script *performance_analysis.py* that meas
 
 We can run the performance analysis using the following command:
 ``` 
-python3 performance_analysis.py
+python performance_analysis.py
 ```
 
 And we get the following output showing the average latency for different quorum sizes:
