@@ -7,7 +7,6 @@ During this laboratory work I implemented a distributed key-value store that use
 * I have multiple files in the root. The *integration_test.py* and *performance_analysis.py* files  are used for testing the server and client functionality and plotting the results with different `quorum` values. The *app.py* file contains the functionality for both followers and leader. *report_images* directory contains images used in this report.
 * In this project, the *Dockerfile* prepares a minimal Python environment used by both the leader and follower containers, installing the server code and configuring how each node starts. The *docker-compose.yml* file launches one leader and five follower containers, sets their roles through environment variables, connects them on the same network, and exposes the leader’s port so clients and tests can access the system.
 
-![img_12.png](report_images%2Fimg_12.png)
 
 ## Dockerfile
 
